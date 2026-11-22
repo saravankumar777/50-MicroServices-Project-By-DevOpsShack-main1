@@ -22,4 +22,3 @@ COPY services/admin/ ./
 USER node
 EXPOSE 8080
 CMD ["node", "index.js"]
-
